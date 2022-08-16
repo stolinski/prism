@@ -1751,7 +1751,7 @@ Prism.languages.js = Prism.languages.javascript;
 
 (function () {
 
-	if (typeof Prism === 'undefined' || typeof document === 'undefined') {
+	if (typeof Prism === 'undefined' || typeof window === 'undefined') {
 		return;
 	}
 
